@@ -1,0 +1,20 @@
+TOR CHAT provides an open-to-join,
+ANONYMOUS chatbox environment over the TOR Darknet,
+in which the server and user locations are UNTRACABLE.
+Encrypted with the default levels offered by TOR.
+
+CLIENT INSTALLATION: (Ubuntu Linux)
+
+------------------------
+sudo apt -y install tor build-essential wget
+git clone the repo 
+sudo gcc -o /usr/bin/chatclient chatclient.c
+
+chatclient YourNickName
+------------------------
+
+Note that the first time you start it the chat client can take a while for the
+Tor Onion circuits to build and connect to the chat server.
+
+When installing a server the HiddenServicePort is 2081
+
