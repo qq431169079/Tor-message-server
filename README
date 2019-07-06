@@ -18,3 +18,5 @@ Tor Onion circuits to build and connect to the chat server.
 
 When installing a server the HiddenServicePort is 2081
 
+Note that if using Hiden Service V2 , change uint8_t onion[63];  to uint8_t onion[23];
+
